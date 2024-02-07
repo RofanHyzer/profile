@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #2C3E50;
+  background-color: black;
   color: #e1e1f1;
   display: flex;
   flex-direction: column;
@@ -21,9 +21,15 @@ body {
   gap: 1rem;
 }
 
+.my-photo {
+  width: 8rem;
+  border-radius: 50%;
+  border: 3.5px solid white;
+}
+
 .background {
-  width: 360px;
-  height: 745px;
+  width: 100%;
+  height: 100%;
   top: -1px;
   z-index: -1;
   display: block;
@@ -39,15 +45,9 @@ h1 {
 
 p {
   color: #FFFFFF;
+  font-family: times;
 }
 
-.my-photo {
-  width: 8.5rem;
-  border-radius: 50%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  object-position: top;
-}
 
 a {
   text-decoration: none;
